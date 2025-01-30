@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore the World</title>
+    <link href="india.css" rel="stylesheet">
+    <style>
+       
+
+        header {
+            color: white;
+            padding: 1em;
+            text-align: center;
+            background-color: rgb(122, 109, 153);
+            text-transform: uppercase;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            font-family: serif;
+            font-size: 30px;
+            margin: 0;
+            letter-spacing: 2px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 30px;
+        }
+
+        .blog-posts, .food-posts, .travel-options {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        .post, .food-post, .travel-block {
+            background-color: #c3b6c8;
+            border-radius: 8px;
+            overflow: hidden;
+            transition: transform 0.3s ease;
+        }
+
+        .post img, .food-post img, .travel-block img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            object-position: center;
+        }
+
+        .post-content, .food-post-content, .travel-block-content {
+            padding: 20px;
+        }
+
+        .post-title, .food-post-title, .travel-block-title {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin: 0 0 10px;
+        }
+
+        .post-meta, .food-post-meta, .travel-block-meta {
+            font-size: 0.9rem;
+            color: #888;
+            margin-bottom: 10px;
+        }
+
+        .post-excerpt, .food-post-excerpt, .travel-block-excerpt {
+            font-size: 1rem;
+            color: #141313;
+        }
+
+        .read-more, .read-more-food, .read-more-travel {
+            display: inline-block;
+            margin-top: 15px;
+            color: #ec744d;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+    </style>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+  />
+</head>
+<body>
+    <nav>
+        <ul class="navbar">
+          
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="destination.html">Destinations</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li>
+            <a href="https://www.instagram.com" target="_blank"
+              ><i class="fab fa-instagram"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com" target="_blank"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://twitter.com" target="_blank"
+              ><i class="fab fa-twitter"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.pinterest.com" target="_blank"
+              ><i class="fab fa-pinterest"></i
+            ></a>
+          </li>
+        </ul>
+      </nav>
+    <header>
+        <h1><u>Places to Explore</u></h1>
+    </header>
+
+    <div class="container">
+        <!-- Blog Posts Section -->
+        <div class="blog-posts">
+            <div class="post">
+                <img src="india1.jpg" alt="Amritsar">
+                <div class="post-content">
+                    <h2 class="post-title">"From the Golden Temple to Street Food: Amritsar’s Must-See Wonders"</h2>
+                    <p class="post-meta">Posted on January 27, 2025 by Shreya</p>
+                    <p class="post-excerpt">Discover the breathtaking beauty of Amritsar, where the golden glow of the Golden Temple meets the vibrant streets filled with rich history, culture, and mouthwatering cuisine.</p>
+                    <a href="#" class="read-more">Read More</a>
+                </div>
+            </div>
+
+            <div class="post">
+                <img src="india3.jpg" alt="Banaras">
+                <div class="post-content">
+                    <h2 class="post-title">"Banaras: A Sacred Tapestry of Ancient Temples, Ghats, and Eternal Rituals."</h2>
+                    <p class="post-meta">Posted on January 15, 2025 by Riya</p>
+                    <p class="post-excerpt">In Banaras, the evening Aarti at Dashashwamedh Ghat is more than a ritual; it’s an unforgettable experience where fire, prayer, and the Ganges come together to create a sacred spectacle that can only be witnessed here.</p>
+                    <a href="#" class="read-more">Read More</a>
+                </div>
+            </div>
+
+            <div class="post">
+                <img src="india4.jpg" alt="Alleppey">
+                <div class="post-content">
+                    <h2 class="post-title">"Alleppey: Where tranquil backwaters meet the serenity of Kerala’s lush landscapes."</h2>
+                    <p class="post-meta">Posted on January 10, 2025 by Shreya</p>
+                    <p class="post-excerpt">Alleppey’s backwaters offer a rare glimpse into life as it flows gently by, with houseboats drifting through lush landscapes and local traditions that have remained unchanged for generations.</p>
+                    <a href="#" class="read-more">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+        
+    <header>
+        <h1><u>Food To Have</u> </h1>
+    </header>
+    <div class="container">
+
+        <!-- Food Posts Section -->
+        <div class="food-posts">
+            <div class="food-post">
+                <img src="food1.webp" alt="Chole Bhature">
+                <div class="food-post-content">
+                    <h2 class="food-post-title">"Chole Bhature: A Delightful Indian Feast"</h2>
+                    <p class="food-post-meta">Posted on January 20, 2025 by Riya</p>
+                    <p class="food-post-excerpt">Savor the delectable taste of Chole Bhature, a North Indian dish that combines spicy chickpeas with fluffy deep-fried bread – a must-try street food!</p>
+                    <a href="#" class="read-more-food">Read More</a>
+                </div>
+            </div>
+
+            <div class="food-post">
+                <img src="food2.jpeg" alt="Pani Puri">
+                <div class="food-post-content">
+                    <h2 class="food-post-title">"Pani Puri: The Ultimate Street Snack"</h2>
+                    <p class="food-post-meta">Posted on January 10, 2025 by Shreya</p>
+                    <p class="food-post-excerpt">Pani Puri, the iconic street food of India, bursts with flavors from tangy tamarind water, spiced potatoes, and crispy puris – an experience you can’t miss.</p>
+                    <a href="#" class="read-more-food">Read More</a>
+                </div>
+            </div>
+
+            <div class="food-post">
+                <img src="food3.jpeg" alt="Dosas">
+                <div class="food-post-content">
+                    <h2 class="food-post-title">"Dosas: A South Indian Delight"</h2>
+                    <p class="food-post-meta">Posted on January 5, 2025 by Riya</p>
+                    <p class="food-post-excerpt">Crispy, thin, and packed with flavors, dosas are the pride of South India, served with chutneys and sambar for a perfect breakfast or snack.</p>
+                    <a href="#" class="read-more-food">Read More</a>
+                </div>
+            </div>
+        </div>    
+    </div>
+
+    <header>
+        <h1><u>Travel Options </u> </h1>
+    </header>
+
+    <div class="travel-options container">
+        <div class="travel-block">
+            <img src="flights.jpeg" alt="Flight">
+            <div class="travel-block-content">
+                <h2 class="travel-block-title">"Flights: Fast and Convenient Travel"</h2>
+                <p class="travel-block-meta">Book your flights with ease</p>
+                <p class="travel-block-excerpt">Flying is the quickest way to explore the vast distances across India, with multiple airlines offering great deals for both domestic and international travelers.</p>
+                <a href="#" class="read-more-travel">Read More</a>
+            </div>
+        </div>
+
+        <div class="travel-block">
+            <img src="train.jpeg" alt="Train">
+            <div class="travel-block-content">
+                <h2 class="travel-block-title">"Trains: The Heart of Indian Travel"</h2>
+                <p class="travel-block-meta">Travel through scenic landscapes</p>
+                <p class="travel-block-excerpt">Experience the charm of Indian railways, a vital part of Indian culture. Enjoy panoramic views and comfort while traveling across cities and towns.</p>
+                <a href="#" class="read-more-travel">Read More</a>
+            </div>
+        </div>
+
+        <div class="travel-block">
+            <img src="bus.jpeg" alt="Bus">
+            <div class="travel-block-content">
+                <h2 class="travel-block-title">"Buses: Affordable and Flexible Travel"</h2>
+                <p class="travel-block-meta">Explore with budget-friendly buses</p>
+                <p class="travel-block-excerpt">Buses are one of the most affordable ways to travel across India, connecting even the smallest towns to larger cities with ease.</p>
+                <a href="#" class="read-more-travel">Read More</a>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>
